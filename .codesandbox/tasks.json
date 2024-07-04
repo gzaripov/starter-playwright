@@ -1,0 +1,88 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "api-example": {
+      "name": "api-example",
+      "command": "npm run api-example",
+      "runAtStart": false
+    },
+    "data-mgmt": {
+      "name": "data-mgmt",
+      "command": "npm run data-mgmt",
+      "runAtStart": false
+    },
+    "api-ui": {
+      "name": "api-ui",
+      "command": "npm run api-ui",
+      "runAtStart": false
+    },
+    "play-report": {
+      "name": "play-report",
+      "command": "npm run play-report",
+      "runAtStart": false
+    },
+    "allure-report": {
+      "name": "allure-report",
+      "command": "npm run allure-report",
+      "runAtStart": false
+    },
+    "open-report": {
+      "name": "open-report",
+      "command": "npm run open-report",
+      "runAtStart": false
+    },
+    "firefox": {
+      "name": "firefox",
+      "command": "npm run firefox",
+      "runAtStart": false
+    },
+    "chromium": {
+      "name": "chromium",
+      "command": "npm run chromium",
+      "runAtStart": false
+    },
+    "a11y": {
+      "name": "a11y",
+      "command": "npm run a11y",
+      "runAtStart": false
+    },
+    "webkit": {
+      "name": "webkit",
+      "command": "npm run webkit",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test-head": {
+      "name": "test-head",
+      "command": "npm run test-head",
+      "runAtStart": false
+    },
+    "reinstall": {
+      "name": "reinstall",
+      "command": "npm run reinstall",
+      "runAtStart": false
+    },
+    "install-deps": {
+      "name": "install-deps",
+      "command": "npm run install-deps",
+      "runAtStart": false
+    }
+  }
+}
